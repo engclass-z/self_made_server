@@ -14,12 +14,13 @@ class TCPServer:
       server_socket.bind(('localhost', 8080))
       server_socket.listen(5)
 
-      # 外部からの接続を待ち、接続があったらコネクションを確立する
+      # 外部からの接続を待ち、接続があったらコネクションを確立（クライアントとの接続の受付が完了）する
+      # コネクションが確立すると新しいsocketインスタンスと接続したクライアントのadressが返される
       print('クライアントからの接続を待ちます。')
       (client_socket, address) = server_socket.accept()
       print(f'クライアントとの接続が完了しました remote_adress: {address}')
 
-      # クライアントから送られてきたデータを取得する
+      # クライアントから送られてきたデータを取得する 4096はバイト数
       request = client_socket.recv(4096)
 
       # クライアントから送られてきたデータファイルを書き出す

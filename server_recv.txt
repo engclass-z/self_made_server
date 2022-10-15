@@ -7,12 +7,10 @@ sec-ch-ua-platform: "macOS"
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Purpose: prefetch
 Sec-Fetch-Site: none
 Sec-Fetch-Mode: navigate
 Sec-Fetch-User: ?1
 Sec-Fetch-Dest: document
 Accept-Encoding: gzip, deflate, br
-Accept-Language: ja,en-US;q=0.9,en;q=0.8,es;q=0.7
-Cookie: Idea-d731e502=326c96d4-58c9-4998-8cbc-7f80c159ee42; wordpress_test_cookie=WP%20Cookie%20check; adminer_key=3f9dcf69f8b1ee45f1d16795d2ffac29; __td_signed=true; __gads=ID=95e1e3474ce138d3-222bbc6937d5007f:T=1658038685:RT=1658038685:S=ALNI_MZCSaJdYyTZ-noq6ujIm0e5BTQm9Q; wp_lang=ja; __gpi=UID=000007c8f86df1ed:T=1658038685:RT=1659245729:S=ALNI_MbM6ia6_JHifIgzQGdi-KBC6tR8Xw; wp-settings-1=libraryContent%3Dbrowse%26editor%3Dtinymce%26advImgDetails%3Dshow; wp-settings-time-1=1659257434; _clck=1oq2nla|1|f3n|0; _td=30334254-6f64-4035-a5ca-f75247c22071; adminer_sid=0e4a84dfc2f75cbfb078d732d02303a0; io=XwfsQhZUBZ8HhCWWAAAq; _gcl_au=1.1.1522020728.1663346965; _ga=GA1.1.230779422.1663346966; bownow_cid=e32ef7dd-64e5-4350-8971-0226ce63521b; _ga_8BXDJJG5XC=GS1.1.1663346965.1.1.1663347238.60.0.0
+Accept-Language: ja
 

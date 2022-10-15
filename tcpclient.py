@@ -11,7 +11,7 @@ class TCPClient:
 
       # サーバーと接続する
       print("=== サーバーと接続します ===")
-      client_socket.connect(("127.0.0.1", 80))
+      client_socket.connect(("localhost", 80))
       print("=== サーバーとの接続が完了しました ===")
 
       # サーバーに送信するリクエストを、ファイルから取得する
@@ -32,9 +32,8 @@ class TCPClient:
       client_socket.close()
 
     finally:
-      print("=== クライアントを停止します。 ===")
+        print("=== クライアントを停止します。 ===")
 
-
-if __name__ == '__main__':
-    client = TCPClient()
-    client.request()
+if __name__ == "__main__":
+  client = TCPClient()
+  client.request()
